@@ -2,9 +2,9 @@
 /* eslint-disable max-statements */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
-import parser from 'note-parser';
 import contour from 'audio-contour';
 import uuid from 'uuid';
+const parser = require('note-parser')
 
 type Envelope = {
   attack?: number;
